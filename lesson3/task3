@@ -1,0 +1,23 @@
+body {
+  font-size: 35px;
+}
+a[href*="ya"] {
+  color: #f70;
+}
+
+a[href*="google"] {
+  color: #666;
+}
+
+a[target="_blank"] {
+	position: relative;
+	white-space: nowrap;
+}
+
+a[target="_blank"]:after {
+  content: "⇗";
+  position: absolute;
+  top: 5px;
+  right: -35px;
+	display: inline-block;
+}
