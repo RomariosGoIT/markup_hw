@@ -1,0 +1,7 @@
+p:first-of-type {
+    text-transform: uppercase;
+}
+
+p:nth-last-of-type(1) {
+  color: #999;
+}
